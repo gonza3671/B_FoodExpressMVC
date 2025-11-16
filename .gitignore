@@ -1,0 +1,78 @@
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+.idea_modules/
+
+### Compilación ###
+target/
+build/
+classes/
+out/
+
+### Logs ###
+*.log
+
+### Sistema operativo ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot ###
+*.jar
+*.war
+*.class
+
+### Archivos de configuración sensibles ###
+.env
+.env.*
+*.env.local
+*.local.env
+*secret*
+*secrets*
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# Si trabajáis con perfiles externos cargados por spring.config.import
+config/*.env
+config/*.yml
+config/*.yaml
+config/*.properties
+
+### Maven ###
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+settings.xml
+.settings/
+dependency-reduced-pom.xml
+
+### Gradle ###
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.settings
+
+### Archivos temporales ###
+*.tmp
+*.bak
+*.swp
+*~
+*.orig
+
+### Archivos de pruebas ###
+bin/
+
+### Bases de datos embebidas ###
+*.db
+*.mv.db
+*.h2.db
+*.trace.db
+
+### Node (si hubiera frontend dentro del mismo repo) ###
+node_modules/
+dist/
+
+### Otros ###
+.vscode/
